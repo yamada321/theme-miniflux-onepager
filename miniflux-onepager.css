@@ -1,0 +1,44 @@
+html, body{min-height:100%;}
+
+:root {
+--body-background: rgba(0,0,0,0);
+background-image:linear-gradient(#ebfcf8, #efdaf1);
+--title-color: #343434;
+--link-color: #343434;
+--link-focus-color: #343434;
+--link-hover-color:#141414;
+--item-padding: 1px !important;
+--current-item-border-color:#FF0000;
+--cuurent-item-border-width:3px;
+}
+
+
+.item{
+margin-bottom:10px !important;
+}
+.item-status-unread{
+background-color: #ffffbe;
+}
+.item-status-read{
+background-color: #c4c4c4;
+}
+.item-status-unread{
+bacground-color:#ffffbe;
+}
+
+.hide-read-items .item-status-read:not(.current-item) {
+ display:block !important; 
+}
+
+.entry-website {
+  background-color:#a5ffa2;
+}
+.entry-author {
+background-color:#f6af94;
+}
+.category{
+background-color:#d7c8ff;
+}
+.item-meta-info-title{
+background-color:#a5ffa2;
+}
