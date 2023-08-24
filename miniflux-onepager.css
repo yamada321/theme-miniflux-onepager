@@ -12,6 +12,8 @@ color: black;
 
 
 :root {
+--font-family:system-ui, -apple-system, Hack, 'Arial', Times, serif;
+--entry-content-font-family: Hack, 'Arial', Times, serif;
 --body-background: rgba(0,0,0,0);
 background-image:linear-gradient(#ebfcf8, #efdaf1);
 --title-color: #343434;
@@ -85,3 +87,17 @@ border-radius: 2px;
 text-decoration: none;
 }
 
+.entry-autho em a{
+text-decoration: none;
+cursor: default;
+}
+
+article.entry-content {
+//max-width: 40rem !important;
+//margin: auto !important;
+font-size: 1.1em !important;
+}
+.entry header h1 {
+font-size: 1.5em !important;
+margin:5px 0 5px !important;
+}
